@@ -1,0 +1,163 @@
+[
+  {
+    "id": "1",
+    "name": "CLASSIC T-SHIRT",
+    "price": 89.99,
+    "description": "A timeless classic t-shirt made from premium cotton. Perfect for everyday wear with a comfortable fit and modern design.",
+    "category": "clothing",
+    "in_stock": true,
+    "featured": true,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black", "White", "Navy"],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=1000&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&h=1000&fit=crop",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800&h=1000&fit=crop"
+    ],
+    "created_date": "2025-01-01T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "name": "PREMIUM JEANS",
+    "price": 149.99,
+    "description": "High-quality denim jeans with a perfect fit. Crafted from premium materials for durability and style.",
+    "category": "clothing",
+    "in_stock": true,
+    "featured": false,
+    "sizes": ["28", "30", "32", "34", "36"],
+    "colors": ["Blue", "Black"],
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&h=1000&fit=crop",
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800&h=1000&fit=crop"
+    ],
+    "created_date": "2025-01-02T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "name": "LEATHER JACKET",
+    "price": 299.99,
+    "description": "Authentic leather jacket with a sleek design. Perfect for adding a touch of sophistication to any outfit.",
+    "category": "outerwear",
+    "in_stock": true,
+    "featured": true,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black", "Brown"],
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=1000&fit=crop",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&h=1000&fit=crop"
+    ],
+    "created_date": "2025-01-03T00:00:00Z"
+  },
+  {
+    "id": "4",
+    "name": "COTTON SWEATER",
+    "price": 119.99,
+    "description": "Soft and cozy cotton sweater perfect for the colder months. Comfortable and stylish.",
+    "category": "clothing",
+    "in_stock": true,
+    "featured": false,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": ["Gray", "Beige", "Navy"],
+    "images": [
+      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&h=1000&fit=crop",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&h=1000&fit=crop"
+    ],
+    "created_date": "2025-01-04T00:00:00Z"
+  },
+  {
+    "id": "5",
+    "name": "RUNNING SHOES",
+    "price": 179.99,
+    "description": "High-performance running shoes designed for comfort and durability. Perfect for athletes and casual runners alike.",
+    "category": "footwear",
+    "in_stock": true,
+    "featured": true,
+    "sizes": ["38", "39", "40", "41", "42", "43", "44"],
+    "colors": ["Black", "White", "Gray"],
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&h=1000&fit=crop",
+      "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=800&h=1000&fit=crop"
+    ],
+    "created_date": "2025-01-05T00:00:00Z"
+  },
+  {
+    "id": "6",
+    "name": "CASUAL SHORTS",
+    "price": 69.99,
+    "description": "Comfortable and stylish shorts perfect for summer. Made from breathable materials.",
+    "category": "clothing",
+    "in_stock": false,
+    "featured": false,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Navy", "Khaki", "Black"],
+    "images": [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&h=1000&fit=crop"
+    ],
+    "created_date": "2025-01-06T00:00:00Z"
+  },
+  {
+    "id": "7",
+    "name": "WINTER COAT",
+    "price": 349.99,
+    "description": "Warm and stylish winter coat to keep you cozy during the cold season. Premium materials and excellent craftsmanship.",
+    "category": "outerwear",
+    "in_stock": true,
+    "featured": false,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black", "Navy", "Beige"],
+    "images": [
+      "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800&h=1000&fit=crop",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=1000&fit=crop"
+    ],
+    "created_date": "2025-01-07T00:00:00Z"
+  },
+  {
+    "id": "8",
+    "name": "DRESS SHIRT",
+    "price": 99.99,
+    "description": "Elegant dress shirt suitable for formal occasions. Crisp and professional look.",
+    "category": "clothing",
+    "in_stock": true,
+    "featured": false,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["White", "Light Blue", "Pink"],
+    "images": [
+      "https://images.unsplash.com/photo-1594938291221-94f18cbbd9c5?w=800&h=1000&fit=crop",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&h=1000&fit=crop"
+    ],
+    "created_date": "2025-01-08T00:00:00Z"
+  },
+  {
+    "id": "9",
+    "name": "SNEAKERS",
+    "price": 129.99,
+    "description": "Classic sneakers that combine style and comfort. Versatile design for everyday wear.",
+    "category": "footwear",
+    "in_stock": true,
+    "featured": false,
+    "sizes": ["38", "39", "40", "41", "42", "43"],
+    "colors": ["White", "Black", "Navy"],
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&h=1000&fit=crop",
+      "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=800&h=1000&fit=crop"
+    ],
+    "created_date": "2025-01-09T00:00:00Z"
+  },
+  {
+    "id": "10",
+    "name": "HOODIE",
+    "price": 109.99,
+    "description": "Comfortable hoodie perfect for casual wear. Soft fabric and relaxed fit.",
+    "category": "clothing",
+    "in_stock": true,
+    "featured": false,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black", "Gray", "Navy"],
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&h=1000&fit=crop",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&h=1000&fit=crop"
+    ],
+    "created_date": "2025-01-10T00:00:00Z"
+  }
+]
+
