@@ -63,9 +63,7 @@ function PagesContent() {
     return (
         <Layout currentPageName={currentPage}>
             <Routes>            
-                
-                    <Route path="/" element={<Landing />} />
-                
+                <Route index element={<Landing />} />
                 
                 <Route path="/About" element={<About />} />
                 
