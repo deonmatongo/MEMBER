@@ -8,7 +8,7 @@ import { useCart } from '@/components/CartContext';
 export default function Navbar() {
   const { getCartCount } = useCart();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const logoUrl = "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=800&h=400&fit=crop";
+  const logoUrl = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/user_68a2f89bf8ba911443836d76/816c97853_WhatsAppImage2025-12-19at1852472.jpeg";
 
   const navLinks = [
     { name: 'SHOP', href: createPageUrl('Shop') },

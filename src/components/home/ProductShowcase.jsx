@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 export default function ProductShowcase() {
   const showcaseImages = [
     {
-      url: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&h=1000&fit=crop",
+      url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/3cb042f96_WhatsAppImage2025-12-19at1846582.jpg",
       title: "BACK PRINT COLLECTION"
     },
     {
-      url: "https://images.unsplash.com/photo-1539533113202-2b2d5c2c98d7?w=800&h=1000&fit=crop",
+      url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/49a2a73cf_WhatsAppImage2025-12-19at1846581.jpg",
       title: "EXCLUSIVE GRAPHICS"
     },
   ];

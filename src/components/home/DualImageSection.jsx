@@ -15,7 +15,7 @@ export default function DualImageSection() {
             className="relative aspect-[3/4] overflow-hidden"
           >
             <img
-              src="https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800&h=1000&fit=crop"
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/015cc70f5_WhatsAppImage2025-12-19at1846586.jpg"
               alt="MEMBER Collection"
               className="w-full h-full object-cover"
             />

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 
 export default function Landing() {
-  const logoUrl = "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=800&h=400&fit=crop";
+  const logoUrl = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/user_68a2f89bf8ba911443836d76/816c97853_WhatsAppImage2025-12-19at1852472.jpeg";
 
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center relative overflow-hidden">

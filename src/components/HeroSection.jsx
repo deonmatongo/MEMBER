@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 export default function HeroSection() {
-  const heroImage = "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1600&h=1000&fit=crop";
+  const heroImage = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/f1abd18be_WhatsAppImage2025-12-19at18465811.jpg";
 
   return (
     <section className="relative w-full h-[calc(100vh-10rem)] md:h-[calc(100vh-11rem)] overflow-hidden">

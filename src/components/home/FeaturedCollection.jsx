@@ -6,15 +6,15 @@ import { createPageUrl } from '@/utils';
 export default function FeaturedCollection() {
   const items = [
     {
-      image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&h=1000&fit=crop",
+      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/9d646b227_WhatsAppImage2025-12-19at18465812.jpg",
       price: "299.00"
     },
     {
-      image: "https://images.unsplash.com/photo-1506629905607-77d8e0d9e46c?w=800&h=1000&fit=crop",
+      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/571c11c1b_WhatsAppImage2025-12-19at1846589.jpg",
       price: "349.00"
     },
     {
-      image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&h=1000&fit=crop",
+      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/e4f093b04_WhatsAppImage2025-12-19at1846588.jpg",
       price: "279.00"
     },
   ];

@@ -10,25 +10,25 @@ export default function Collections() {
     {
       title: 'SIGNATURE SERIES',
       description: 'Distressed tees with iconic MEMBER graphics. Limited edition drops.',
-      image: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&h=1000&fit=crop',
+      image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/9d646b227_WhatsAppImage2025-12-19at18465812.jpg',
       link: createPageUrl('Shop?category=t-shirts')
     },
     {
       title: 'BACK PRINT COLLECTION',
       description: 'Statement pieces designed to stand out. Each design tells a story.',
-      image: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&h=1000&fit=crop',
+      image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/3cb042f96_WhatsAppImage2025-12-19at1846582.jpg',
       link: createPageUrl('Shop?category=t-shirts')
     },
     {
       title: 'OVERSIZED ESSENTIALS',
       description: 'Comfort meets style. Relaxed fits for everyday wear.',
-      image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&h=1000&fit=crop',
+      image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/f1abd18be_WhatsAppImage2025-12-19at18465811.jpg',
       link: createPageUrl('Shop?category=t-shirts')
     },
     {
       title: 'ROMANTIC REBELLION',
       description: 'Soft aesthetics with an edge. For those who wear their heart on their sleeve.',
-      image: 'https://images.unsplash.com/photo-1506629905607-77d8e0d9e46c?w=800&h=1000&fit=crop',
+      image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/d9c87be43_WhatsAppImage2025-12-19at1846587.jpg',
       link: createPageUrl('Shop?category=t-shirts')
     }
   ];
@@ -46,7 +46,7 @@ export default function Collections() {
           className="absolute inset-0"
         >
           <img
-            src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=1600&h=900&fit=crop"
+            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/3cb042f96_WhatsAppImage2025-12-19at1846582.jpg"
             alt="Collections"
             className="w-full h-full object-cover object-center"
           />

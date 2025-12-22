@@ -46,7 +46,7 @@ export default function Shop() {
           className="absolute inset-0"
         >
           <img
-            src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1600&h=900&fit=crop"
+            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/bd7868c1c_WhatsAppImage2025-12-19at1846581.jpg"
             alt="Shop"
             className="w-full h-full object-cover object-center"
           />

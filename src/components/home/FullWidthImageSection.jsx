@@ -11,7 +11,7 @@ export default function FullWidthImageSection() {
         transition={{ duration: 1.2 }}
       >
         <img
-          src="https://images.unsplash.com/photo-1506629905607-77d8e0d9e46c?w=1600&h=900&fit=crop"
+          src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/d9c87be43_WhatsAppImage2025-12-19at1846587.jpg"
           alt="MEMBER Lifestyle"
           className="w-full h-[50vh] sm:h-[60vh] md:h-[80vh] object-cover"
         />

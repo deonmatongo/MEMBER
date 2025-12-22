@@ -16,7 +16,7 @@ export default function About() {
           className="absolute inset-0"
         >
           <img
-            src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1600&h=900&fit=crop"
+            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/c32d07486_WhatsAppImage2025-12-19at18465810.jpg"
             alt="About"
             className="w-full h-full object-cover object-center"
           />
