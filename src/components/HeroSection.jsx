@@ -5,7 +5,7 @@ export default function HeroSection() {
   const heroVideo = "https://tjlvivpxnltubacusphz.supabase.co/storage/v1/object/public/media%20for%20MEMBER/WhatsApp%20Video%202025-12-19%20at%2021.11.44.mp4";
 
   return (
-    <section className="relative w-full h-[calc(100vh-10rem)] md:h-[calc(100vh-11rem)] overflow-hidden">
+    <section className="relative w-full h-screen overflow-hidden">
       <motion.div
         initial={{ scale: 1.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
