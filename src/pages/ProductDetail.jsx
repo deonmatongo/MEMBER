@@ -136,7 +136,11 @@ export default function ProductDetail() {
 
               {product.description && (
                 <div>
-                  <p className="text-gray-600 leading-relaxed font-light">
+                  <p className={`leading-relaxed font-light ${
+                    product.id === "1" ? "text-pink-500" : 
+                    product.id === "2" ? "text-blue-500" : 
+                    "text-gray-600"
+                  }`}>
                     {product.description}
                   </p>
                 </div>
