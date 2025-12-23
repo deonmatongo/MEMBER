@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 export default function HeroSection() {
-  const heroImage = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/f1abd18be_WhatsAppImage2025-12-19at18465811.jpg";
+  const heroVideo = "https://tjlvivpxnltubacusphz.supabase.co/storage/v1/object/public/media%20for%20MEMBER/WhatsApp%20Video%202025-12-19%20at%2021.11.44.mp4";
 
   return (
     <section className="relative w-full h-[calc(100vh-10rem)] md:h-[calc(100vh-11rem)] overflow-hidden">
@@ -12,9 +12,12 @@ export default function HeroSection() {
         transition={{ duration: 1.2, ease: "easeOut" }}
         className="absolute inset-0"
       >
-        <img
-          src={heroImage}
-          alt="MEMBER Collection"
+        <video
+          src={heroVideo}
+          autoPlay
+          muted
+          loop
+          playsInline
           className="w-full h-full object-cover object-center"
         />
         
