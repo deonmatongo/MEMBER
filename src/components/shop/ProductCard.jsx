@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 
 export default function ProductCard({ product }) {
-  return (
-    <Link to={createPageUrl(`ProductDetail?id=${product.id}`)}>
+  const cardContent = (
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -19,12 +18,17 @@ export default function ProductCard({ product }) {
             alt={product.name}
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
           />
-          {!product.in_stock && (
+          {product.coming_soon && (
+            <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
+              <span className="text-white tracking-widest text-sm">COMING SOON</span>
+            </div>
+          )}
+          {!product.coming_soon && !product.in_stock && (
             <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
               <span className="text-white tracking-widest text-sm">SOLD OUT</span>
             </div>
           )}
-          {product.featured && (
+          {product.featured && !product.coming_soon && (
             <div className="absolute top-4 left-4">
               <span className="bg-white text-gray-900 px-3 py-1 text-xs tracking-widest">
                 FEATURED
@@ -37,11 +41,26 @@ export default function ProductCard({ product }) {
           <h3 className="text-sm tracking-widest text-gray-900 group-hover:text-gray-600 transition-colors">
             {product.name}
           </h3>
-          <p className="text-sm font-light text-gray-600">
-            {product.price.toFixed(2)} PLN
-          </p>
+          {product.coming_soon ? (
+            <p className="text-sm font-light text-gray-500 tracking-widest">
+              COMING SOON
+            </p>
+          ) : (
+            <p className="text-sm font-light text-gray-600">
+              {product.price.toFixed(2)} PLN
+            </p>
+          )}
         </div>
       </motion.div>
+  );
+
+  if (product.coming_soon) {
+    return <div className="cursor-default">{cardContent}</div>;
+  }
+
+  return (
+    <Link to={createPageUrl(`ProductDetail?id=${product.id}`)}>
+      {cardContent}
     </Link>
   );
 }

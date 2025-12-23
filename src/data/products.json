@@ -7,6 +7,7 @@
     "category": "clothing",
     "in_stock": true,
     "featured": true,
+    "coming_soon": false,
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["White"],
     "images": [
@@ -23,6 +24,7 @@
     "category": "clothing",
     "in_stock": true,
     "featured": true,
+    "coming_soon": false,
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["White"],
     "images": [
@@ -33,97 +35,19 @@
   },
   {
     "id": "3",
-    "name": "MEMBER OVERSIZED T-SHIRT",
-    "price": 279.00,
-    "description": "Comfort meets style with this oversized MEMBER t-shirt. Relaxed fit perfect for everyday wear with streetwear aesthetics.",
-    "category": "clothing",
-    "in_stock": true,
-    "featured": true,
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["White"],
-    "images": [
-      "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/f1abd18be_WhatsAppImage2025-12-19at18465811.jpg",
-      "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/e4f093b04_WhatsAppImage2025-12-19at1846588.jpg"
-    ],
-    "created_date": "2025-01-03T00:00:00Z"
-  },
-  {
-    "id": "4",
-    "name": "MEMBER GRAPHIC T-SHIRT",
-    "price": 299.00,
-    "description": "Bold graphic design featuring MEMBER branding with exclusive artwork. Limited edition drop for true members.",
-    "category": "clothing",
-    "in_stock": true,
-    "featured": false,
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["White"],
-    "images": [
-      "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/571c11c1b_WhatsAppImage2025-12-19at1846589.jpg",
-      "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/015cc70f5_WhatsAppImage2025-12-19at1846586.jpg"
-    ],
-    "created_date": "2025-01-04T00:00:00Z"
-  },
-  {
-    "id": "5",
-    "name": "MEMBER ROMANTIC REBELLION T-SHIRT",
-    "price": 279.00,
-    "description": "Soft aesthetics with an edge. This MEMBER t-shirt features unique graphics for those who wear their heart on their sleeve.",
-    "category": "clothing",
-    "in_stock": true,
-    "featured": false,
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["White"],
-    "images": [
-      "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/d9c87be43_WhatsAppImage2025-12-19at1846587.jpg",
-      "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/e4f093b04_WhatsAppImage2025-12-19at1846588.jpg"
-    ],
-    "created_date": "2025-01-05T00:00:00Z"
-  },
-  {
-    "id": "6",
-    "name": "MEMBER CLASSIC T-SHIRT",
-    "price": 259.00,
-    "description": "Classic MEMBER design in premium cotton. Timeless style with the iconic branding you know and love.",
-    "category": "clothing",
-    "in_stock": false,
-    "featured": false,
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["White"],
-    "images": [
-      "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/9d646b227_WhatsAppImage2025-12-19at18465812.jpg"
-    ],
-    "created_date": "2025-01-06T00:00:00Z"
-  },
-  {
-    "id": "7",
     "name": "MEMBER EXCLUSIVE T-SHIRT",
     "price": 319.00,
     "description": "Exclusive graphics and premium construction. This MEMBER t-shirt is designed for those who refuse to blend in.",
     "category": "clothing",
-    "in_stock": true,
+    "in_stock": false,
     "featured": false,
+    "coming_soon": true,
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["White"],
     "images": [
       "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/49a2a73cf_WhatsAppImage2025-12-19at1846581.jpg",
       "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/015cc70f5_WhatsAppImage2025-12-19at1846586.jpg"
     ],
-    "created_date": "2025-01-07T00:00:00Z"
-  },
-  {
-    "id": "8",
-    "name": "MEMBER STREETWEAR T-SHIRT",
-    "price": 289.00,
-    "description": "Crafted for the streets. This MEMBER t-shirt blends comfort with statement design, perfect for urban style.",
-    "category": "clothing",
-    "in_stock": true,
-    "featured": false,
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["White"],
-    "images": [
-      "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/571c11c1b_WhatsAppImage2025-12-19at1846589.jpg",
-      "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694979a4ca7042c6222da9d6/f1abd18be_WhatsAppImage2025-12-19at18465811.jpg"
-    ],
-    "created_date": "2025-01-08T00:00:00Z"
+    "created_date": "2025-01-03T00:00:00Z"
   }
 ]
