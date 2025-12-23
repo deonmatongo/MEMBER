@@ -10,7 +10,7 @@ export default function ProductCard({ product }) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="group cursor-pointer"
+        className={`group ${product.coming_soon ? 'cursor-default' : 'cursor-pointer'}`}
       >
         <div className="relative aspect-[3/4] overflow-hidden bg-gray-100 mb-4">
           <img
@@ -55,7 +55,7 @@ export default function ProductCard({ product }) {
   );
 
   if (product.coming_soon) {
-    return <div className="cursor-default">{cardContent}</div>;
+    return <div>{cardContent}</div>;
   }
 
   return (
