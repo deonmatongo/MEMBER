@@ -12,17 +12,28 @@ export default function HeroSection() {
         transition={{ duration: 1.2, ease: "easeOut" }}
         className="absolute inset-0"
       >
+        {/* Blurred background video */}
         <video
           src={heroVideo}
           autoPlay
           muted
           loop
           playsInline
-          className="w-full h-full object-contain object-center"
+          className="absolute inset-0 w-full h-full object-cover object-center blur-2xl scale-110"
+        />
+        
+        {/* Main video */}
+        <video
+          src={heroVideo}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="relative w-full h-full object-contain object-center z-10"
         />
         
         {/* Subtle overlay for better contrast */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent z-20" />
       </motion.div>
 
       {/* Hero Text */}
