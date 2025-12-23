@@ -11,8 +11,8 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["White"],
     "images": [
-      "/images/product1-image1.jpeg",
-      "/images/product1-image2.jpeg"
+      "/images/product1-image2.jpeg",
+      "/images/product2-image1.jpeg"
     ],
     "created_date": "2025-01-01T00:00:00Z"
   },
@@ -28,7 +28,7 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["White"],
     "images": [
-      "/images/product2-image1.jpeg",
+      "/images/product1-image1.jpeg",
       "/images/product2-image2.jpeg"
     ],
     "created_date": "2025-01-02T00:00:00Z"
@@ -45,8 +45,8 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["White"],
     "images": [
-      "/images/product2-image2.jpeg",
-      "/images/product1-image2.jpeg"
+      "/images/product1-image1.jpeg",
+      "/images/product2-image2.jpeg"
     ],
     "created_date": "2025-01-03T00:00:00Z"
   }
